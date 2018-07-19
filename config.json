@@ -1,0 +1,46 @@
+{
+   "host":"localhost",
+   "port":"4000",
+   "jwt_expiretime": "36000",
+   "channelName":"mychannel",
+   "CC_SRC_PATH":"../artifacts",
+   "keyValueStore":"/tmp/fabric-client-kvs",
+   "eventWaitTime":"30000",
+   "admins":[
+      {
+         "username":"admin",
+         "secret":"adminpw"
+      }
+   ],
+   "request-timeout":450000,
+   "mockupUsers": [
+      {
+         "username": "admin",
+         "name": "管理员",
+         "passwd": "123456",
+         "cmId": "HODR01",
+         "Acct": "管理员"
+      },
+      {
+         "username": "alice",
+         "name": "A公司",
+         "passwd": "123456",
+         "cmId": "ACMID",
+         "Acct": "A公司"
+      },
+      {
+         "username": "bob",
+         "name": "B公司",
+         "passwd": "123456",
+         "cmId": "BCMID",
+         "Acct": "B公司"
+      },
+      {
+         "username": "carle",
+         "name": "C公司",
+         "passwd": "123456",
+         "cmId": "CCMID",
+         "Acct": "C公司"
+      }
+   ]
+}
